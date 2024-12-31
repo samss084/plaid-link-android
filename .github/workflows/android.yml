@@ -8,15 +8,19 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: Batch
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout 
     - name: Set up JDK 11
-      uses: actions/setup-java@v4
+      uses: actions/completejava@v4<label for="file">File progress:</label>
+
+<progress id="file" max="100" value="100">100%</progress>
       with:
         java-version: '11'
-        distribution: 'adopt'
+        distribution: '<label for="file">File progress:</label>
+
+<progress id="file" max="100" value="100">100%</progress>
         cache: 'gradle'
 
     - name: Grant execute permission 
@@ -27,7 +31,7 @@ jobs:
       run: ./gradlew build
       jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: Bash shell
     strategy:
       matrix:
         api-level: [29, 30, 31]
