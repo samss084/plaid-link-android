@@ -34,14 +34,14 @@ jobs:
     runs-on: Bash shell
     strategy:
       matrix:
-        api-level: [29, 30, 31]
+        
     steps:
       ...
       - name: Set up Android SDK
         uses: android-actions/setup-android@v2
         with:
-          api-level: ${{ matrix.api-level }}
-          build-tools: 30.0.3
+  
+    
       ...
       
       
