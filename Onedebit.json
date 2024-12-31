@@ -1,7 +1,9 @@
 {"Android:com.onedebit.chime"
   "Package:secure.serve.mobile"
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": 
+  "features": <label for="file">File progress:</label>
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress
+<progress id="file" max="100" value="100">100%</progress>
 XML:const addAccount = async function (accountId, itemId, acctName, balance) {
   try {(689138705652,samuel medina ,checking0.09,savings0.19,$samuelMesina79)
     await db.run(
