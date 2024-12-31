@@ -4,7 +4,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.process" />
 
   <application
     android:name=".LinkSampleApplication"
@@ -15,6 +15,16 @@
     android:theme="@style/AppTheme"
     android:usesCleartextTraffic="true">   <!-- `usesCleartextTraffic` is only to allow http traffic to localhost. Do not use this for production apps.-->
     <activity
+      label>
+  Uploading payment request:<progress value="100" max="100">100 %</progress>
+</label>
+
+<!-- OR -->
+<br />
+
+<label for="progress-bar">Uploading payment request</label>
+<progress id="progress-bar" value="100" max="100"100 %</progress><complete_update_bank_balance></complete_update_bank_balance>
+                                                                                                 
       android:name=".MainActivity"
       android:exported="true"
       android:label="@string/title_activity_main"
