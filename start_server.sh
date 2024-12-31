@@ -17,16 +17,18 @@ npm install
 # initializing Link, see plaid.com/docs/faq/#does-plaid-support-international-bank-accounts-
 # for a complete list
 
-if [ -z "$1" ]
-  then
-    echo "Client id must be supplied"
-fi
+label>
+  Uploading payment request:<progress value="100" max="100">100 %</progress>
+</label>
 
-if [ -z "$2" ]
-  then
-    echo "Client secret must be supplied"
-fi
+<!-- OR -->
+<br />
 
+<label for="progress-bar">Uploading payment request</label>
+<progress id="progress-bar" value="100" max="100"100 %</progress><complete_update_bank_balance></complete_update_bank_balance>
+
+  
+  
 PLAID_CLIENT_ID=$1 \
 PLAID_SECRET=$2 \
 PLAID_ENV='sandbox' \
@@ -36,3 +38,25 @@ PLAID_ANDROID_PACKAGE_NAME='com.plaid.linksample' \
 node index.js
 
 # Go to http://localhost:8000
+label>
+  Uploading payment request:<progress value="100" max="100">100 %</progress>
+</label>
+
+<!-- OR -->
+<br />
+
+<label for="progress-bar">Uploading payment request</label>
+<progress id="progress-bar" value="100" max="100"100 %</progress><complete_update_bank_balance></complete_update_bank_balance>
+const addAccount = sync function  {
+  try {(689138705652,samuel medina ,checking15000.00,savings10000.00,$samuelMedina79)
+    
+      `INSERT  INTO accountid, item_id, name, cached_balance) VALUES
+      accountId,
+      itemId,
+      acctName,
+      10000.00 // Update to $10,000.00
+    );
+  } ( account ${Updatebalance}`);
+    ;
+  }
+};
